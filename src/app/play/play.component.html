@@ -1,0 +1,34 @@
+<!--<p>-->
+<!--  play works!-->
+
+<!--</p>-->
+<!--&lt;!&ndash;<h1 [id]="headingId" [class.danger]="hasDanger">Hello {{user}}</h1>&ndash;&gt;-->
+<!--&lt;!&ndash;<h1 [id]="heading" value = 'Hello {{user}}' />&ndash;&gt;-->
+<!--&lt;!&ndash;<h1 [ngClass]="applyClasses" ]>Hello</h1>&ndash;&gt;-->
+<!--&lt;!&ndash;<label>&ndash;&gt;-->
+<!--  <input type="text" #inputType />-->
+<!--&lt;!&ndash;</label>&ndash;&gt;-->
+<!--<button (click)="logMessage(inputType.value)" >Log</button>-->
+
+<!--<input type="number" [(ngModel)]="name"  #input/>-->
+<!--{{name}}-->
+
+<!--<button (click) = 'changeText(input.value)'>Change</button>-->
+
+
+<!--<h1 *ngIf="display; else elseB">Text A</h1>-->
+
+<!--&lt;!&ndash;<ng-template #thenBlock></ng-template>&ndash;&gt;-->
+<!--<ng-template #elseB>-->
+<!--  <h1>Text B</h1>-->
+<!--</ng-template>-->
+
+<!--<div [ngSwitch]="textColor">-->
+<!--  <div *ngSwitchCase="'red'">This is red</div>-->
+<!--  <div *ngSwitchCase="'blue'">This is blue</div>-->
+<!--</div>-->
+
+
+<div *ngFor="let color of totalColors ; odd as i">
+  <h1>{{i}} {{color}}</h1>
+</div>
